@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(/image/anh2.jpg);  
+}
+.title{
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.inputs{
+    height: 40px;
+    padding: 10px;
+}
+.error{
+    height: 30px;
+    padding: 15px;
+    color: red;
+    /* visibility: hidden; */
+    
+}
+button{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.wh{
+    text-align: center;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+.image_user{
+    width: 30px;
+    height: 30px;
+    position: relative;
+}

@@ -1,0 +1,106 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+} */
+.chat-container{
+    height: 100vh;
+}
+.chat-container .header{
+    background-color: rgb(9, 128, 128);
+    text-align: center;
+    height: 64px;
+    color: #ffff;
+    line-height: 64px;
+    font-size: 30px ;
+}
+.conversation-detail .tittle{
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    border-bottom: 1px solid #ffffff;
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+}
+.main{
+    height: calc(100vh - 64px);
+}
+.main .conversation-detail{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.conversation-detail .list-chat{
+    flex-grow: 1;
+    /* overflow: auto; */
+}
+.conversation-detail .list-chat .me{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    color: #000000;
+}
+.content{
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+.conversation-detail .list-chat .me .content{
+    display: flex;
+    max-width: 35%;
+    width: max-content;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 15px;
+    word-break: break-all;
+
+}
+.conversation-detail .list-chat .owner .content{
+    display: flex;
+    max-width: 35%;
+    width: max-content;
+    justify-content: center;
+    background-color: #bdbdbd;
+    border-radius: 20px;
+    padding: 15px;
+    word-break: break-all;
+}
+.me{
+    display: flex;
+    color: rgb(222, 222, 223);
+    padding: 5px;
+}
+.owner{
+    color: rgb(222, 222, 223);
+    padding: 5px;
+}
+
+.form-chatapp{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.input-chat{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    outline: none;
+}
+input{
+    background-color:azure;
+}
+.send{
+    position: relative;
+    top: 9px;
+    right: 10px;
+    font-size: x-large;
+    border: none;
+    color: blue;
+    background-color:azure;
+}
